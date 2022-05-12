@@ -25,7 +25,7 @@ body {
 }
 .description {
    flex: 0 0 100%;
-   transition: all ease .5s;
+   transition: all ease .3s;
 }
 .slider__info {
    margin-top: 20px;
@@ -54,7 +54,7 @@ body {
    background-color: #71ABFF;
    border: 1px solid #71ABFF;
    border-radius: 50%;
-   transition: all .4s ease;
+   transition: all .5s ease;
 }
 .navigation__item:hover .bar{
    background-color: transparent;
@@ -70,7 +70,7 @@ input[name="slide"] {
 }
 .slide{
    width: 25%;
-   transition: all .6s ease;   
+   transition: all .5s ease;
 }
 .slide img{
    width: 100%;
@@ -99,4 +99,19 @@ input[name="slide"] {
 }
 #slide4:checked ~ .slider__info .description--active {
    margin-left: -600px;
+}
+#slide1:checked ~ .slider__info .description--active {
+   margin-left: 0px;
+}
+#slide1:checked ~ .slider__info .control1 .bar  {
+   background: rgb(19, 209, 247);
+}
+#slide2:checked ~ .slider__info .control2 .bar  {
+   background: rgb(19, 209, 247);
+}
+#slide3:checked ~ .slider__info .control3 .bar  {
+   background: rgb(19, 209, 247);
+}
+#slide4:checked ~ .slider__info .control4 .bar  {
+   background: rgb(19, 209, 247);
 }
