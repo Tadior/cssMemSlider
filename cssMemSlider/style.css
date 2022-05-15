@@ -43,8 +43,6 @@ h1 {
    justify-content: space-between;
 }
 .navigation{
-   bottom: 16px;
-   left: 50%;
    display: flex;
 }
 .navigation__item{
