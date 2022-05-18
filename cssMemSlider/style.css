@@ -67,6 +67,9 @@ h1 {
 .navigation__item:hover .bar{
    background-color: transparent;
 }
+.navigation__item:active .bar{
+   background-color: red;
+}
 input[name="slide"] {
    display: none;
 }
